@@ -1,8 +1,5 @@
 import re
 import serial
-import requests
-import time
-
 
 class TwigController():
 
