@@ -10,6 +10,7 @@ class TwigController():
 
         self.port = port
         self.controller = re.search("=(.*?);", self.send_command('hubid')).group(1)
+        self.channel = re.search("=(.*?);", self.send_command('channelget')).group(1)
         self.twigs = self.get_twigs()
 
 
