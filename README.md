@@ -1,4 +1,4 @@
-# Twig-Talk
+# twig-talk
 Twig-Talk is a Python module for communicating via serial with a Nelson Irrigation TD200 Twig Controller.
 
 ## Depencies
