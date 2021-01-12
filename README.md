@@ -10,7 +10,7 @@ Twig-Talk is a Python module for communicating via serial with a Nelson Irrigati
 Import the module and initialize class object with connected port. For instance, the UART on the Raspberry Pi's GPIO is /dev/ttyAMA0 in this case.
 ```python
 >>> from twigtalk import TwigController
->>> tc = TwigController("/dev/ttyAMA0')
+>>> tc = TwigController('/dev/ttyAMA0')
 ```
 
 Get the ID of the TD200 Twig Controller
